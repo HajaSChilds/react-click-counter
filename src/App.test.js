@@ -7,7 +7,7 @@ import App from './App';
 Enzyme.configure({ adapter: new EnzymeAdapter })
 
 
-test('renders learn react link', () => {
+test('renders without error', () => {
   
 
 });
