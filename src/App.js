@@ -1,13 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-        <h1>The count is #</h1>
-         <button>Increment counter</button>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div data-test="component-app">
+        <h1>App</h1>
+      </div>
+    );
 }
-
+}
 export default App;
